@@ -18,7 +18,7 @@ public class Receiver
          * destination            消息的目的地，消息发送给谁
          * consumer               消费者，消息接收者
          * brokerUrl              消息队列的地址，如果想接受局域网内的消息，请让消息发送者提供其IP地址
-         * queueName            消息队列的名称
+         * queueName              消息队列的名称
          * */
         ConnectionFactory connectionFactory;
         Connection connection;
